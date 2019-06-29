@@ -6,7 +6,7 @@
         },
         {
             "question": "What is Composer for DirectAdmin?",
-            "answer": "Your service provider may not grant SSH access for you because of security reasons. You cannot install Composer by yourself or even running shell command. With Composer for DirectAdmin, you can use Composer in an easy and safe way without CLI."
+            "answer": "Webonize, for security reasons, restricts SSH access so a user can only connect to SSH with SSH key configured. Not all users know how to setup SSH Keys, some of which might need PHP Composer tool. With Composer for DirectAdmin, you can use Composer in an easy and safe way without accessing SSH."
         }
     ]
 }

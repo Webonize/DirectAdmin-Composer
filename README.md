@@ -5,10 +5,8 @@ Your service provider may not grant SSH access for you because of security reaso
 ### Install via Command Line
 ```sh
 cd /usr/local/directadmin/plugins
-wget https://github.com/Marco129/DirectAdmin-Composer/archive/master.zip
-unzip master.zip
+git clone https://github.com/Webonize/DirectAdmin-Composer/
 mv DirectAdmin-Composer-master directadmin-composer
-rm -f master.zip
 sh directadmin-composer/scripts/install.sh
 ```
 
